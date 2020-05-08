@@ -8,7 +8,7 @@ type Props = {
 
 const Layout: React.FunctionComponent<Props> = ({
   children,
-  title = "This is the default title",
+  title = "Maxime Salomon",
 }) => (
   <div className="max-w-screen-lg m-auto">
     <Head>

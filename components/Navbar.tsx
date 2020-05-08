@@ -5,7 +5,7 @@ const Navbar: React.FunctionComponent = () => (
   <header>
     <nav className="py-4">
       <Link href="/">
-        <a className="text-2xl font-semibold">Maxime Salomon</a>
+        <a className="text-2xl font-semibold">maximesalomon.com</a>
       </Link>
     </nav>
   </header>
