@@ -10,7 +10,7 @@ const Layout: React.FunctionComponent<Props> = ({
   children,
   title = 'This is the default title',
 }) => (
-  <div>
+  <div className="antialiased text-gray-900 flex items-center justify-center min-h-screen">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />

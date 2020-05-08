@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app'
-import '../styles/index.css'
+import '../css/index.css'
 
 const MaximeSalomon = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />
