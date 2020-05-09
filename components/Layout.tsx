@@ -10,7 +10,7 @@ const Layout: React.FunctionComponent<Props> = ({
   children,
   title = "Maxime Salomon",
 }) => (
-  <div className="max-w-screen-lg m-auto">
+  <div className="max-w-screen-lg m-auto px-6">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />

@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout title="Home">
-    <div className="flex">
+    <div className="md:flex ">
       <div className="">
         <img
           src="/images/maxime-salomon.jpg"
@@ -10,20 +10,22 @@ const IndexPage = () => (
           className="h-64 rounded-sm"
         />
       </div>
-      <div className="ml-24">
-        <h1 className="text-3xl font-semibold">Maxime Salomon 👋</h1>
+      <div className="md:ml-24">
+        <h1 className="text-3xl font-semibold pt-8 md:pt-0">
+          Maxime Salomon 👋
+        </h1>
         <p className="pt-4">27</p>
         <p className="pt-2">France 🇫🇷</p>
         <p className="pt-2">Learning & Building</p>
         <p className="pt-2">
-          Growth Manager & Engineer at{" "}
+          Current - Growth Manager & Engineer at{" "}
           <a
             className="hover:underline text-pink-600"
             href="https://shotgun.live"
           >
             Shotgun
           </a>{" "}
-          | Founder at{" "}
+          + Founder at{" "}
           <a
             className="hover:underline text-blue-600"
             href="https://croissant.io"
@@ -32,14 +34,14 @@ const IndexPage = () => (
           </a>
         </p>
         <p className="pt-2">
-          Previously Student at{" "}
+          Previously - Student at{" "}
           <a
             className="hover:underline text-red-600"
             href="https://lambdaschool.com"
           >
             Lambda School
           </a>{" "}
-          | Intern at{" "}
+          + Intern at{" "}
           <a
             className="hover:underline text-blue-600"
             href="https://www.algolia.com"
