@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout title="Home">
-    <div className="md:flex ">
+    <div className="md:flex px-4 pt-4 md:pt-16">
       <div className="">
         <img
           src="/images/maxime-salomon.jpg"
@@ -12,7 +12,7 @@ const IndexPage = () => (
       </div>
       <div className="md:ml-24">
         <h1 className="text-3xl font-semibold pt-8 md:pt-0">
-          Maxime Salomon 👋
+          Bonjour, I'm Maxime 👋
         </h1>
         <p className="pt-4">27</p>
         <p className="pt-2">France 🇫🇷</p>
