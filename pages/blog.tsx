@@ -1,10 +1,40 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from "react";
+import Layout from "../components/Layout";
+import { getAllPosts } from "../lib/api";
+import Head from "next/head";
+import HeroPost from "../components/HeroPost";
 
-const BlogPage: React.FunctionComponent = () => (
-  <Layout title="Blog">
-    <h1>Blog</h1>
-  </Layout>
-)
+const BlogPage: React.FunctionComponent = ({ allPosts }: any) => {
+  const heroPost = allPosts[0];
 
-export default BlogPage
+  return (
+    <Layout title="Blog">
+      <Head>
+        <title>Blog</title>
+      </Head>
+      {heroPost && (
+        <HeroPost
+          title={heroPost.title}
+          slug={heroPost.slug}
+        />
+      )}
+    </Layout>
+  );
+};
+
+export default BlogPage;
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+}

@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
 
-const IndexPage = () => (
+const IndexPage: React.FunctionComponent = () => (
   <Layout title="Home">
     <div className="md:flex px-4 pt-4 md:pt-16">
       <div className="">
         <img
-          src="/images/maxime-salomon.jpg"
+          src="/assets/maxime-salomon.jpg"
           alt="Maxime Salomon"
           className="h-64 rounded-sm"
         />
