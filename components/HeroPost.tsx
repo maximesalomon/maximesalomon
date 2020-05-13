@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+// HeroPost
 export default function HeroPost({
   title,
   slug,
