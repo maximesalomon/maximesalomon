@@ -4,6 +4,7 @@ import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import HeroPost from "../components/HeroPost";
 
+// BLOG PAGE
 const BlogPage: React.FunctionComponent = ({ allPosts }: any) => {
   const heroPost = allPosts[0];
 
