@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 
+// INDEX PAGE
 const IndexPage: React.FunctionComponent = () => (
   <Layout title="Home">
     <div className="md:flex px-4 pt-4 md:pt-16">
