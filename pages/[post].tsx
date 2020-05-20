@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 
+// ARTICLE PAGE
 const ArticlePage: React.FunctionComponent = () => {
   return (
     <Layout title="Blog">
