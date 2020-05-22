@@ -1,6 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 
+// NAVBAR
 const Navbar: React.FunctionComponent = () => (
   <header className="border-b w-full py-2">
     <nav className="flex justify-between px-4">
