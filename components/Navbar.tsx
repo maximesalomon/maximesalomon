@@ -7,7 +7,7 @@ const Navbar: React.FunctionComponent = () => (
     <nav className="flex justify-between px-4">
       <div>
         <Link href="/">
-          <a className="text-2xl font-semibold">Maxime Salomon</a>
+          <a className="text-2xl font-semibold">maximesalomon.com</a>
         </Link>
       </div>
       <div>
