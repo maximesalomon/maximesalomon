@@ -6,6 +6,7 @@ type Props = {
   title?: string;
 };
 
+// LAYOUT
 const Layout: React.FunctionComponent<Props> = ({
   children,
   title = "Maxime Salomon",
