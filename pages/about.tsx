@@ -9,7 +9,7 @@ const AboutPage: React.FunctionComponent = () => (
     <p>Maxime Salomon</p>
     <p>
       <Link href="/">
-        <a>Home</a>
+        <a>Homepage</a>
       </Link>
     </p>
   </Layout>
