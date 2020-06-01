@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 // ABOUT PAGE
 const AboutPage: React.FunctionComponent = () => (
   <Layout title="About">
-    <h1>About</h1>
+    <h1>About me</h1>
     <p>Maxime Salomon</p>
     <p>
       <Link href="/">
