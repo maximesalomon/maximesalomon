@@ -11,6 +11,15 @@ const BlogPage: React.FunctionComponent = ({ allPosts }: any) => {
       <Head>
         <title>Blog</title>
       </Head>
+      <h1 className="mt-8 text-3xl">Blog</h1>
+      { allPosts.map((post: any) => {
+        return (
+          <div className="mt-8">
+            <h3 className="text-2xl text-blue-800"><a href={post.slug}>{post.title}</a></h3>
+            <p className="text-sm italic">{post.date}</p>
+          </div>
+          )
+      }) }
     </Layout>
   );
 };
