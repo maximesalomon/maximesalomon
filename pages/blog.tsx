@@ -5,7 +5,6 @@ import Head from "next/head";
 
 // BLOG PAGE
 const BlogPage: React.FunctionComponent = ({ allPosts }: any) => {
-  console.log(allPosts)
   return (
     <Layout title="Blog">
       <Head>
