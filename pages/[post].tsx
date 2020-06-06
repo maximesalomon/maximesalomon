@@ -21,7 +21,9 @@ const ArticlePage: React.FunctionComponent = ({ posts }: any) => {
 
 export default ArticlePage;
 
-export async function getStaticPaths() {
+// TODO https://www.youtube.com/watch?v=pY0vWYLDDco
+
+export const getStaticPaths = async () => {
   return {
     paths: [
       { params: { post: 'from-marketing-to-growth-engineering-part-1' } },
@@ -31,7 +33,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const posts = getAllPosts([
     "title",
     "date",
