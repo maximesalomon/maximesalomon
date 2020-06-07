@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -27,14 +26,9 @@ const BlogPage: React.FunctionComponent = ({ posts }: any) => {
 
 export default BlogPage;
 
-export async function getStaticProps() {
-  const posts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-  ]);
+export const getStaticProps = async () => {
 
   return {
-    props: { posts },
+    props: { },
   };
 }
