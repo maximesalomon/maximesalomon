@@ -1,38 +1,31 @@
 import Layout from "../components/Layout";
 import fs from "fs";
-import { getAllPosts } from "../lib/api";
-import { useRouter } from "next/router";
+import path from "path";
+import matter from "gray-matter";
 
-// ARTICLE PAGE
-const ArticlePage: React.FunctionComponent = ({ posts }: any) => {
-  const router = useRouter();
-  const slug = router.query.post;
-  const filteredPost = posts.filter((post: any) => post.slug === slug);
-  const post = filteredPost[0];
-
+// POST
+const Post: React.FunctionComponent = ({ data, content }: any) => {
+  console.log(data);
+  console.log(content);
   return (
     <Layout title="Blog">
       <div className="py-8 px-4">
-        <h1 className="text-3xl font-bold">{post.title}</h1>
-        <p className="text-sm italic">{post.date}</p>
+        <h1 className="text-3xl font-bold">{data.title}</h1>
+        <p className="text-sm italic">{data.date}</p>
       </div>
     </Layout>
   );
 };
 
-export default ArticlePage;
-
 // TODO https://www.youtube.com/watch?v=pY0vWYLDDco
 
 export const getStaticPaths = async () => {
   const files = fs.readdirSync("posts");
-  console.log('files', files);
   const paths = files.map((filename) => ({
     params: {
       post: filename.replace(".md", ""),
     },
   }));
-  console.log('paths :', paths)
 
   return {
     paths,
@@ -40,11 +33,16 @@ export const getStaticPaths = async () => {
   };
 };
 
-
-export const getStaticProps = async () => {
-  const posts = getAllPosts(["title", "date", "slug"]);
+export const getStaticProps = async ({ params: { post } }: any) => {
+  const markdown = fs.readFileSync(path.join("posts", post + ".md"));
+  const parsedMarkdown = matter(markdown);
 
   return {
-    props: { posts },
+    props: {
+      data: parsedMarkdown.data,
+      content: parsedMarkdown.content,
+    },
   };
 };
+
+export default Post;
