@@ -1,13 +1,19 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Head from "next/head";
-import Link from "next/link";
+import fs from "fs";
+// import { parse } from "marked";
+import matter from "gray-matter";
+// import marked from "marked";
+import path from "path";
+// import Head from "next/head";
+// import Link from "next/link";
 
 // BLOG PAGE
-const BlogPage: React.FunctionComponent = ({ posts }: any) => {
+const Blog: React.FunctionComponent = ({ posts }: any) => {
+  console.log(posts)
   return (
     <Layout title="Blog">
-      <Head>
+      {/* <Head>
         <title>Blog</title>
       </Head>
       <h1 className="mt-8 text-3xl">Blog</h1>
@@ -19,16 +25,18 @@ const BlogPage: React.FunctionComponent = ({ posts }: any) => {
             <p className="text-sm italic">{post.date}</p>
           </div>
           )
-      }) }
+      }) } */}
     </Layout>
   );
 };
 
-export default BlogPage;
+export default Blog;
 
 export const getStaticProps = async () => {
-
-  return {
-    props: { },
-  };
+  const files = fs.readdirSync("posts");
+  const posts = files.map(file => {
+    const markdown = fs.readFileSync(path.join("posts", file));
+    const parsedMarkdown = matter(markdown);
+    return parsedMarkdown
+  })
 }
