@@ -3,11 +3,6 @@ title: 'From Marketing to Growth Engineering - Part 1'
 date: 'Feb 12, 2019'
 ---
 
-
-## From Marketing to Growth Engineering — Part 1
-
-### Stories of an entrepreneur & LambdaSchool student with a marketing background becoming a growth engineer.
-
 git add .
 
 git commit -m 'build week 1 completed'

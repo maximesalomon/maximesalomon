@@ -3,13 +3,6 @@ title: 'From Marketing to Growth Engineering - Part 2'
 date: 'May 6th, 2020'
 ---
 
-
-## From Marketing to Growth Engineering — Part 2
-
-*Stories from a former marketer now working as a Growth Engineer.*
-
-![](https://cdn-images-1.medium.com/max/2400/1*Rg08QNVQRWaMaX9Jhke45Q.png)
-
 ***Monday — January, 7th 2019***
 
 It’s my first day at Lambda School — a 9-month code boot camp. I’m ready to learn to code. It’s an investment I finally decided to make. I’m Excited.
