@@ -5,13 +5,12 @@ import matter from "gray-matter";
 
 // POST
 const Post: React.FunctionComponent = ({ data, content }: any) => {
-  console.log(data);
-  console.log(content);
   return (
-    <Layout title="Blog">
+    <Layout title={data.title}>
       <div className="py-8 px-4">
         <h1 className="text-3xl font-bold">{data.title}</h1>
         <p className="text-sm italic">{data.date}</p>
+        <div>{content}</div>
       </div>
     </Layout>
   );
