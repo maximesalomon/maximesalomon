@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
+import Link from "next/link";
 
 // BLOG PAGE
 const BlogPage: React.FunctionComponent = ({ posts }: any) => {
@@ -14,7 +15,8 @@ const BlogPage: React.FunctionComponent = ({ posts }: any) => {
       { posts.map((post: any) => {
         return (
           <div key={post.slug}className="mt-8">
-            <h3 className="text-2xl text-blue-800"><a href={post.slug}>{post.title}</a></h3>
+            <Link href="/[post]" as={"/" + post.slug}>
+            <a><h3 className="text-2xl text-blue-800">{post.title}</h3></a></Link>
             <p className="text-sm italic">{post.date}</p>
           </div>
           )
