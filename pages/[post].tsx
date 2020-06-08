@@ -17,8 +17,6 @@ const Post: React.FunctionComponent = ({ data, content }: any) => {
   );
 };
 
-// TODO https://www.youtube.com/watch?v=pY0vWYLDDco
-
 export const getStaticPaths = async () => {
   const files = fs.readdirSync("posts");
   const paths = files.map((filename) => ({

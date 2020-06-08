@@ -1,6 +1,7 @@
 ---
 title: 'From Marketing to Growth Engineering - Part 2'
 date: 'May 6th, 2020'
+slug: 'from-marketing-to-growth-engineering-part-2'
 ---
 
 ***Monday — January, 7th 2019***
