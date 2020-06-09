@@ -6,12 +6,13 @@ import marked from "marked";
 
 // POST
 const Post: React.FunctionComponent = ({ data, content }: any) => {
+  console.log(content);
   return (
     <Layout title={data.title}>
       <div className="py-8 px-4">
         <h1 className="text-3xl font-bold">{data.title}</h1>
         <p className="text-sm italic">{data.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: content }}></div>
+        <div dangerouslySetInnerHTML={{ __html: `<article>${content}</article>` }}></div>
       </div>
     </Layout>
   );
