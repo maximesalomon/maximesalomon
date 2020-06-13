@@ -4,33 +4,66 @@ date: 'Feb 12, 2019'
 slug: 'from-marketing-to-growth-engineering-part-1'
 ---
 
-git add .
+<style type="text/css" rel="stylesheet">
 
-git commit -m 'build week 1 completed'
+article h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
 
-git push origin maxime-salomon
+article h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+}
+
+article code {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+article img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+</style>
+
+```git add .```
+
+```git commit -m 'build week 1 completed'```
+
+```git push origin maxime-salomon```
 
 ![](https://cdn-images-1.medium.com/max/2880/1*obivfdN2jNvEcKxtI43vAA.png)
 
 What a month it’s has been!
 
-1-month ago I started as a student at LambdaSchool. January, 7th 2019 to be exact.
+1-month ago, I started as a student at Lambda School. January, 7th 2019 to be exact.
 
-I’ve joined LambdaSchool’s first ever European cohort — WEB EU1.
+I’ve joined Lambda School’s first ever European cohort — WEB EU1.
 
 It’s been an amazing experience so far! If you had told me where I would be back when I started, I would not have believed you. It’s been an intense and rewarding first month.
 
-### Let’s get back a little bit and give you a bit of context.
+### Let’s take a step back and give you a bit of context
 
-I’m Maxime. I launched [Croissant](https://croissant.io/) in 2018. We are an on-demand growth team for startups. Our team now consists of four people working remotely: 1 designer, 2 engineers & I — marketing/product/growth.
+I’m Maxime. Bonjour 👋 I launched [Croissant](https://croissant.io/) in 2018.
+
+We are an on-demand growth team for startups. Our team now consists of four people working remotely: 1 designer, 2 engineers & I — marketing/product/growth.
 
 I was lucky enough to have worked for [Algolia](https://www.algolia.com/) before and did [Y Combinator](https://www.ycombinator.com/) with them back in 2014. Since then, it’s been quite a chaotic ride. That’s life I guess.
 
 2018 wasn’t great either. I struggled and that affected the business. But, we have a great & supportive team. Thanks again Valentin, Alex & Maxim!
 
-*In this series of post, I will do my best to share my experience moving from Marketing to Growth Engineering by attending LambdaSchool.*
+*In this series of post, I will do my best to share my experience moving from Marketing to Growth Engineering by attending Lambda School.*
 
-## What’s Growth Engineering?
+## **What’s Growth Engineering?**
 
 *“Growth Engineering = Growth + Engineering*
 
@@ -46,101 +79,91 @@ Growth Engineering is the sub-part of Growth responsible for technically impleme
 
 *const keyword = ‘hybrid’*
 
-Growth Engineers are engineers with growth chops. Foremost, they are engineers. It took me a while to come to peace with this. Now that I have, I’m doing LambdaSchool :)
+Growth Engineers are engineers with growth chops. Foremost, they are engineers. It took me a while to come to peace with this. Now that I have, I’m doing Lambda School :)
 
 Growth Engineers are full-stack engineers who were founders before or are wannabe founder. They seek business impact when building software.
 
-More companies are building Growth Team and some great ones are currently hiring Growth Engineers.
-[**Twitch - Software Engineer - Growth**
-*Twitch's Growth team builds features that attract, engage, and retain our global community of 100 million monthly…*jobs.lever.co](https://jobs.lever.co/twitch/7655382b-e18f-4b47-95f2-24b6e6f53fc4)
-[**Front — Growth Engineer**
-*Email is the universal communication tool for work. It's where you discuss work, answer questions, and talk to all of…*jobs.lever.co](https://jobs.lever.co/frontapp/c1baa524-eeb6-492c-91f0-4c7d9e0126c7?lever-source=frontapp)
-[**Amplitude — Senior Growth Engineer**
-*Passionate about building massively scalable systems? Want to work with a top class team of engineers ranging from new…*boards.greenhouse.io](https://boards.greenhouse.io/amplitude/jobs/4132016002)
-[**PayFit — Lead Growth Engineer**
-*Your team and your mission The Engineering team counts 35 people who develop our application and make sure every…*jobs.lever.co](https://jobs.lever.co/payfit/035a4e20-1924-4bdc-8d41-2949cebccc91)
+More companies are building Growth Team and some great ones are currently hiring Growth Engineers: **Twitch — Software Engineer Growth**, **Front — Growth Engineer**, **Amplitude — Senior Growth Engineer** or **PayFit — Lead Growth Engineer** in France.
 
-Now, onto LambdaSchool and how I’ve decided to join the program as a way to become a growth engineer.
+Now, onto Lambda School and how I’ve decided to join the program as a way to become a growth engineer.
 
-## Finding about LambdaSchool
+## **Finding about Lambda School**
 
 *yes, twitter can be a great acquisition channel*
 
-I first heard of LambdaSchool on Twitter in early 2018. Since then, I don’t think I’ve spent a week without seeing something related to LambdaSchool. PS — the tweets below are similar to the tweets I saw.
+I first heard of Lambda School on Twitter in early 2018. Since then, I don’t think I’ve spent a week without seeing something related to Lambda School. PS — the tweets below are similar to the tweets I saw.
 
 This is an excellent strategy for a few reasons:
 
-* **Awareness:** I probably read a tweet before 2018, but never actually noticed it. I finally read one and I’m glad I did. The tweets were often not related to LambdaSchool.
+**Awareness:** I probably read a tweet before 2018, but never actually noticed it. I finally read one and I’m glad I did. The tweets were often not related to Lambda School.
 
- <iframe src="https://medium.com/media/1602705e224c42510a90fc5a72f939b5" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">You get to a point as a founder when you realize no one other than you will ever truly understand your business</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1057886642017513474?ref_src=twsrc%5Etfw">November 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
- <iframe src="https://medium.com/media/9cdc632a5b4071cd5d8d7a32f2046cd3" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is the best user experience you’ve ever... experienced?</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1056620045416116224?ref_src=twsrc%5Etfw">October 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 and things I could relate to…
 
- <iframe src="https://medium.com/media/38afeef9a545295e15428a857a8b40e4" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We subscribe to Netflix, which in my house means “We pay $12/month to watch reruns of The Office”</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1060176921017774080?ref_src=twsrc%5Etfw">November 7, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
-* **Engagement:** After learning about Lambda, I saw a few tweets that gave me enough value and some “oh wow” effect to be honest so I wanted to check them out. I went to [LambdaSchool.com](https://lambdaschool.com/) and went through it.
+**Engagement:** After learning about Lambda, I saw a few tweets that gave me enough value and some “oh wow” effect to be honest so I wanted to check them out. I went to [lambdaschool.com](https://lambdaschool.com/) and went through it.
 
- <iframe src="https://medium.com/media/9748beed3ed97e08d1e6e8828dbbb8c7" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lambda School looks like a charity from the outside, but we’re really more like a hedge fund. <br><br>We bet that smart, hardworking people are fundamentally undervalued, and we can apply some cash and leverage to fix that, taking a cut.</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1056271756929822720?ref_src=twsrc%5Etfw">October 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
- <iframe src="https://medium.com/media/ece493c9f3cedfaccd6e9333c422f04c" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">One student attended Lambda School from a WiFi hotspot in the back of a mattress store. <br><br>Another went to Notre Dame.<br><br>The Notre Dame grads &quot;didn&#39;t hold a candle to&quot; the Lambda grad.<br><br>Even without interest or raises, the Lambda grad comes out $578k ahead at year four. <a href="https://t.co/Yi62Mu7F2M">pic.twitter.com/Yi62Mu7F2M</a></p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1063490767434305537?ref_src=twsrc%5Etfw">November 16, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
-* **Exploration: **Over time, I saw how many new people were joining the program. How they enjoyed it, and how much some of their students were actually getting hired for. It wasn’t just LambdaSchool saying how great they were, but actual students sharing their experience.
+**Exploration:** Over time, I saw how many new people were joining the program. How they enjoyed it, and how much some of their students were actually getting hired for. It wasn’t just Lambda School saying how great they were, but actual students sharing their experience.
 
- <iframe src="https://medium.com/media/c0632905bf550ad01b66c19a42951008" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I love my job <a href="https://t.co/P5JFirXd3N">pic.twitter.com/P5JFirXd3N</a></p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1068249990328393729?ref_src=twsrc%5Etfw">November 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
- <iframe src="https://medium.com/media/460c14e6a35a82425baf48384e97ca72" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Going to Lambda School makes you valuable.<br><br>Combining Lambda School with deep experience in another skill set is 👀 <a href="https://t.co/8UP6Zu5OUs">pic.twitter.com/8UP6Zu5OUs</a></p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1063264786492735488?ref_src=twsrc%5Etfw">November 16, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
-* **Conversion: **I finally decided to apply for two reasons: 1. They were opening a full-time cohort in Europe. 2. They care. I witnessed multiple times how they listened to the feedback from their students and implemented them in record time. I knew it was a special place and I wanted to be part of it.
+**Conversion:** I finally decided to apply for two reasons: 1. They were opening a full-time cohort in Europe. 2. They care. I witnessed multiple times how they listened to the feedback from their students and implemented them in record time. I knew it was a special place and I wanted to be part of it.
 
- <iframe src="https://medium.com/media/1b0c79ebc870a1cbef5132e50598196e" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lambda School European Union is now accepting applications <a href="https://t.co/571ExJ1rGf">https://t.co/571ExJ1rGf</a></p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1055978805741768705?ref_src=twsrc%5Etfw">October 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
- <iframe src="https://medium.com/media/9c7853fed5383b0a9569e99a1214f0fc" frameborder=0></iframe>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today we’re announcing the biggest change to Lambda School’s instructional design since inception. We’ve been building to this for a really long time, and I could not be more excited that it’s finally ready.<br><br>Announcing Build Weeks</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/1069584101815013377?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
-To make sure I wasn’t an outlier, I asked my fellow students how they found out about LambdaSchool. We are a small cohort, about 20 people. 15 answered.
+To make sure I wasn’t an outlier, I asked my fellow students how they found out about Lambda School. We are a small cohort, about 20 people. 15 answered.
 
 ![](https://cdn-images-1.medium.com/max/4452/1*sz9W4Oe5jt8G5bOdB825Og.png)
 
-As a marketer, I couldn’t be happier to see these results. Most of my fellow students have heard of LambdaSchool from word of mouth or “free” channels. This means there is a huge untapped growth opportunity.
+As a marketer, I couldn’t be happier to see these results. Most of my fellow students have heard of Lambda School from word of mouth or “free” channels. This means there is a huge untapped growth opportunity.
 
-LambdaSchool has come to the same conclusion.
+Lambda School has come to the same conclusion.
 
 They are starting to test a few paid channels & other types of content. PS — I don’t have more information on this than what is publicly available.
 
 ### Facebook Ads
 
-[https://www.facebook.com/pg/LambdaSchoolOnline/ads](https://www.facebook.com/pg/LambdaSchoolOnline/ads/?country=0&ref=page_internal)
+<img src="https://cdn-images-1.medium.com/max/2004/1*YNWg0_tSD7F8gpimyutUmA.png" />
 
-![](https://cdn-images-1.medium.com/max/2004/1*YNWg0_tSD7F8gpimyutUmA.png)
-
-![](https://cdn-images-1.medium.com/max/2012/1*mqQ9QbyD8XSUWb4v_ZMofQ.png)
+<img src="https://cdn-images-1.medium.com/max/2012/1*mqQ9QbyD8XSUWb4v_ZMofQ.png" />
 
 ### Video Testimonials
 
- <iframe src="https://medium.com/media/90c61655e4b29c1ab24bed7438c14bd1" frameborder=0></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/naN-Vsp6L5k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### **Youtube**
+### Youtube
 
- <iframe src="https://medium.com/media/1d974a6b375e23ed09ee0a7f538203b4" frameborder=0></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Wmh3CYVu_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Billboard Ads
 
- <iframe src="https://medium.com/media/9da54cffbb4693afeb31dd2a1c2a79f8" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did the best I could with the weather. <a href="https://t.co/URpNT0dbRE">pic.twitter.com/URpNT0dbRE</a></p>&mdash; Alan Barth (@alancbarth) <a href="https://twitter.com/alancbarth/status/1094852205037838336?ref_src=twsrc%5Etfw">February 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## **Applying & getting into LambdaSchool**
+## **Applying & getting into Lambda School**
 
 excitement, fear, excitement
 
-I’ve tried to learn to code several times over the past few years, but never prioritized for it. Thus, I never made any substantial progress. That’s what is interesting with programs like LambdaSchool. It’s a commitment to learning how to code + a safety net of people that are here to help you.
+I’ve tried to learn to code several times over the past few years, but never prioritized for it. Thus, I never made any substantial progress. That’s what is interesting with programs like Lambda School. It’s a commitment to learning how to code + a safety net of people that are here to help you.
 
-I’ve applied to LambdaSchool twice. Once for the US program. Once for the EU program right before they closed down their recruitment process. Thanks for that Karen :)
+I’ve applied to Lambda School twice. Once for the US program. Once for the EU program right before they closed down their recruitment process. Thanks for that Karen :)
 
 ![](https://cdn-images-1.medium.com/max/2364/1*kpBDFDP6dwKGK9Z3YBnarg.png)
 
 Once I had applied for the EU cohort. I knew I had a better shot at it. Then, I got an email to schedule an interview.
 
-I was in the south of France on holidays during that time. Internet was not great, but the interview went well :) I spent the next 48 hours doing the pre-course work and completed the LambdaSchool code challenge.
+I was in the south of France on holidays during that time. Internet was not great, but the interview went well :) I spent the next 48 hours doing the pre-course work and completed the Lambda School code challenge.
 
 A few days later, I got an exciting news in my inbox. I was in 🎉
 
@@ -148,11 +171,11 @@ A few days later, I got an exciting news in my inbox. I was in 🎉
 
 I would be starting on Monday, January 7th 2019 and start my journey to become a growth engineer.
 
-## 5 weeks into LambdaSchool
+## **5 weeks into Lambda School**
 
 *it’s just the beginning*
 
-LambdaSchool is a 9 months long program divided into four parts:
+Lambda School is a 9 months long program divided into four parts:
 
 * *3 months of Full Stack Web Development Core: *The 3 months (or 15 weeks) are divided into 3 parts of 5 weeks each with 4 weeks of class + 1 [build week](https://twitter.com/Austen/status/1069584101815013377) where we learn about Git, HTML, CSS, LESS, JavaScript, React, HTTP, Ajax, Redux, Node.js, Express.js, SQL, Authentification, Testing.
 
@@ -170,19 +193,19 @@ It’s so rewarding to look back to just a month ago and see what I’m able to 
 
 ![](https://cdn-images-1.medium.com/max/5288/1*eEr_HlZC4Inpb2BzwCwUrA.png)
 
-## Growth Engineer checklist
+## **Growth Engineer Checklist**
 
-PS — if you are hiring a growth engineer and see something missing below. Please get in touch on [Twitter](https://twitter.com/maximesalomon) or over email `maxime *at* croissant *dot* io`
+PS — if you are hiring a growth engineer and see something missing below. Please get in touch on [Twitter](https://twitter.com/maximesalomon) or over email - `maxime at croissant dot io`
 
- 1. Brainstorm & define growth experiments ✅
+1 - Brainstorm & define growth experiments ✅
 
- 2. Implement design optimization 🚧
+2 - Implement design optimization 🚧
 
- 3. Optimize features ⛔️
+3 - Optimize features ⛔️
 
- 4. Build features ⛔️
+4 - Build features ⛔️
 
- 5. Build internal tools ⛔️
+5 - Build internal tools ⛔️
 
 ## **What’s next?**
 

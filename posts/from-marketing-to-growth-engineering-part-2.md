@@ -4,6 +4,32 @@ date: 'May 6th, 2020'
 slug: 'from-marketing-to-growth-engineering-part-2'
 ---
 
+<style type="text/css" rel="stylesheet">
+
+article h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+article h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+}
+
+article code {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+</style>
+
 ***Monday — January, 7th 2019***
 
 It’s my first day at Lambda School — a 9-month code boot camp. I’m ready to learn to code. It’s an investment I finally decided to make. I’m Excited.
@@ -28,7 +54,7 @@ PS — If you haven’t read the first one, go read it now:
 
 ![[From Marketing to Growth Engineering — Part 1](https://medium.com/@maximesalomon/from-marketing-to-growth-engineering-part-1-f9fea2bf8768)](https://cdn-images-1.medium.com/max/3532/1*TPYAIrOR5uRhPCrdkzH-eA.png)
 
-## Learning to code
+## **Learning to code**
 
 *Should I learn to code?*
 
@@ -70,7 +96,7 @@ To make sure I would be ready whatever comes next.
 
 I joined Lambda School.
 
-## Lambda School
+## **Lambda School**
 
 Lambda School is an immersive 9-months online program. Their goal is to prepare you for a successful career in tech. They have tracks in Data Science, Web Development, and IOS.
 
@@ -108,7 +134,7 @@ I have the freedom and flexibility I always wanted. To make sure I stay in « sh
 
 ![I’m pretty proud of this. 156 days and counting 💪](https://cdn-images-1.medium.com/max/2400/1*pafUFpwiw5aWSjaziWCa2Q.png)
 
-## Finding a job as a Growth Engineer
+## **Finding a job as a Growth Engineer**
 
 It was a bit weird for me to look for a full-time job as I had never had one…
 
@@ -140,7 +166,7 @@ As a quick reminder, here are definitions for Growth & Growth Engineering:
 >  Finance owns the flow of cash in and out of a company. Growth owns the flow of customers in and out of a product.
 >  Growth Engineering technically implement experiments on user acquisition, conversion, and product optimization. They are also building internal tooling to support the growth process.
 
-## Shotgun
+## **Shotgun**
 
 Shotgun is a ticketing & marketing platform for music events based in Paris, France. I joined them a 1+ month ago as a Growth Manager & Engineer.
 
@@ -150,7 +176,7 @@ It meant that we had to find new ways to help artists and organizers create *thi
 
 Working on it 🕺
 
-## Growth Engineer Checklist Update
+## **Growth Engineer Checklist Update**
 
 I’ve created a list of required skills for a Growth Engineer.
 
@@ -158,7 +184,7 @@ The emoji updates are where I was when I published the first article and where I
 
 ![I’ll update it for Part 3 :)](https://cdn-images-1.medium.com/max/2400/1*wAyQFbXYUKEubZvh5ej38A.png)
 
-## What’s next?
+## **What’s next?**
 
 Keep going I guess :)
 

@@ -5,16 +5,12 @@ import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
 import path from "path";
-import Head from "next/head";
 import Link from "next/link";
 
 // BLOG PAGE
 const Blog: React.FunctionComponent = ({ posts }: any) => {
   return (
     <Layout title="Blog">
-      <Head>
-        <title>Blog</title>
-      </Head>
       <h1 className="mt-8 text-3xl">Blog</h1>
       { posts.map((post: any) => {
         return (
