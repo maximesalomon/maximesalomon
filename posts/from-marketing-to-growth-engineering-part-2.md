@@ -28,6 +28,11 @@ article code {
     background-color: rgba(242, 242, 242, 1);
 }
 
+article img {
+    margin: 0 auto;
+    width: 80%;
+}
+
 </style>
 
 ***Monday — January, 7th 2019***
