@@ -10,7 +10,7 @@ const Post: React.FunctionComponent = ({ data, content }: any) => {
     <Layout title={data.title}>
       <div className="max-w-screen-md m-auto py-8 px-4">
         <h1 className="text-5xl leading-tight font-extrabold">{data.title}</h1>
-        <p className="mt-4 italic">Published on {data.date}</p>
+        <p className="mt-4 italic">Published on {data.date} by Maxime Salomon</p>
         <article
           className="mt-8"
           dangerouslySetInnerHTML={{ __html: content }}
