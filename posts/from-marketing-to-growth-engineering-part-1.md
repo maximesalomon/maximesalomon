@@ -1,6 +1,7 @@
 ---
 title: 'From Marketing to Growth Engineering - Part 1'
 date: 'Feb 12, 2019'
+author: 'Maxime Salomon'
 slug: 'from-marketing-to-growth-engineering-part-1'
 ---
 
