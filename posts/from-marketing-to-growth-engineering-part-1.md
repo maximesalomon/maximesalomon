@@ -1,8 +1,8 @@
 ---
-title: 'From Marketing to Growth Engineering - Part 1'
-date: 'Feb 12, 2019'
-author: 'Maxime Salomon'
-slug: 'from-marketing-to-growth-engineering-part-1'
+title: "From Marketing to Growth Engineering - Part 1"
+date: "Feb 12, 2019"
+author: "Maxime Salomon"
+slug: "from-marketing-to-growth-engineering-part-1"
 ---
 
 <style type="text/css" rel="stylesheet">
@@ -36,11 +36,11 @@ article img {
 
 </style>
 
-```git add .```
+`git add .`
 
-```git commit -m 'build week 1 completed'```
+`git commit -m 'build week 1 completed'`
 
-```git push origin maxime-salomon```
+`git push origin maxime-salomon`
 
 ![](https://cdn-images-1.medium.com/max/2880/1*obivfdN2jNvEcKxtI43vAA.png)
 
@@ -62,11 +62,11 @@ I was lucky enough to have worked for [Algolia](https://www.algolia.com/) before
 
 2018 wasn’t great either. I struggled and that affected the business. But, we have a great & supportive team. Thanks again Valentin, Alex & Maxim!
 
-*In this series of post, I will do my best to share my experience moving from Marketing to Growth Engineering by attending Lambda School.*
+_In this series of post, I will do my best to share my experience moving from Marketing to Growth Engineering by attending Lambda School._
 
 ## **What’s Growth Engineering?**
 
-*“Growth Engineering = Growth + Engineering*
+_“Growth Engineering = Growth + Engineering_
 
 Growth is a function in an organization that owns parts of the funnel helping the company grow. It first appeared in consumer startups. We can now find more and more B2B startups that are starting to build their own growth team. Hubspot being the perfect example.
 
@@ -78,7 +78,7 @@ Growth Engineering is the sub-part of Growth responsible for technically impleme
 
 ## **What does a Growth Engineer look like and who is hiring?**
 
-*const keyword = ‘hybrid’*
+_const keyword = ‘hybrid’_
 
 Growth Engineers are engineers with growth chops. Foremost, they are engineers. It took me a while to come to peace with this. Now that I have, I’m doing Lambda School :)
 
@@ -90,7 +90,7 @@ Now, onto Lambda School and how I’ve decided to join the program as a way to b
 
 ## **Finding about Lambda School**
 
-*yes, twitter can be a great acquisition channel*
+_yes, twitter can be a great acquisition channel_
 
 I first heard of Lambda School on Twitter in early 2018. Since then, I don’t think I’ve spent a week without seeing something related to Lambda School. PS — the tweets below are similar to the tweets I saw.
 
@@ -174,17 +174,17 @@ I would be starting on Monday, January 7th 2019 and start my journey to become a
 
 ## **5 weeks into Lambda School**
 
-*it’s just the beginning*
+_it’s just the beginning_
 
 Lambda School is a 9 months long program divided into four parts:
 
-* *3 months of Full Stack Web Development Core: *The 3 months (or 15 weeks) are divided into 3 parts of 5 weeks each with 4 weeks of class + 1 [build week](https://twitter.com/Austen/status/1069584101815013377) where we learn about Git, HTML, CSS, LESS, JavaScript, React, HTTP, Ajax, Redux, Node.js, Express.js, SQL, Authentification, Testing.
+- *3 months of Full Stack Web Development Core: *The 3 months (or 15 weeks) are divided into 3 parts of 5 weeks each with 4 weeks of class + 1 [build week](https://twitter.com/Austen/status/1069584101815013377) where we learn about Git, HTML, CSS, LESS, JavaScript, React, HTTP, Ajax, Redux, Node.js, Express.js, SQL, Authentification, Testing.
 
-* *5 weeks of Lambda Labs: A 5-week long project where we build a full-blown SaaS app in a group of 3–4 people.*
+- _5 weeks of Lambda Labs: A 5-week long project where we build a full-blown SaaS app in a group of 3–4 people._
 
-* *3 Months of Computer Science: *In the computer science curriculum, we learn about Python, Django, Algorithms, Data Structures, Graphs, C, Theory of Computation, Hash Tables, Computer Architecture, Web Server.
+- *3 Months of Computer Science: *In the computer science curriculum, we learn about Python, Django, Algorithms, Data Structures, Graphs, C, Theory of Computation, Hash Tables, Computer Architecture, Web Server.
 
-* *2 months of Lambda Next: Not sure yet how this works.*
+- _2 months of Lambda Next: Not sure yet how this works._
 
 Right now — I’m 5 weeks in which means I’ve learned about Git, HTML, CSS, LESS & JavaScript. That I’ve just finished my first build week where I built a new homepage for [croissant.io](https://croissant.io). If you want to see how it wents, I actually [streamed the whole thing on Twitch](https://www.twitch.tv/maximesalomon/videos) :)
 
@@ -210,7 +210,7 @@ PS — if you are hiring a growth engineer and see something missing below. Plea
 
 ## **What’s next?**
 
-*I’m hooked*
+_I’m hooked_
 
 We are now entering into our second 5-weeks module which will focus on React. We will learn about Components, Props, State, React lifecycle, SPA, Routing, HTTP, Ajax & Redux.
 
