@@ -1,8 +1,8 @@
 ---
-title: 'From Marketing to Growth Engineering - Part 2'
-date: 'May 6th, 2020'
-author: 'Maxime Salomon'
-slug: 'from-marketing-to-growth-engineering-part-2'
+title: "From Marketing to Growth Engineering - Part 2"
+date: "May 6th, 2020"
+author: "Maxime Salomon"
+slug: "from-marketing-to-growth-engineering-part-2"
 ---
 
 <style type="text/css" rel="stylesheet">
@@ -36,15 +36,15 @@ article img {
 
 </style>
 
-***Monday — January, 7th 2019***
+**_Monday — January, 7th 2019_**
 
 It’s my first day at Lambda School — a 9-month code boot camp. I’m ready to learn to code. It’s an investment I finally decided to make. I’m Excited.
 
 This is my first step towards becoming a Growth Engineer.
 
-***Wednesday — May, 6th 2020***
+**_Wednesday — May, 6th 2020_**
 
-I’m a *Growth Manager & Engineer at Shotgun.*
+I’m a _Growth Manager & Engineer at Shotgun._
 
 **The end 🎉**
 
@@ -62,7 +62,7 @@ PS — If you haven’t read the first one, go read it now:
 
 ## **Learning to code**
 
-*Should I learn to code?*
+_Should I learn to code?_
 
 This is one question a lot of marketers I know ask themselves. So are you?
 
@@ -106,7 +106,7 @@ I joined Lambda School.
 
 Lambda School is an immersive 9-months online program. Their goal is to prepare you for a successful career in tech. They have tracks in Data Science, Web Development, and IOS.
 
-Their business model is a bit different than your typical-3-months boot camp. They use a financial instrument called an ISA (Income Share Agreement). So you only pay afterward if you got a job making +50K$.
+Their business model is a bit different than your typical-3-months boot camp. They use a financial instrument called an ISA (Income Share Agreement). So you only pay afterward if you got a job making +50K\$.
 
 I started in January 2019. I did their Full-Stack Web Development track and attended the first-ever European cohort — WEBEU1 ❤️
 
@@ -120,7 +120,7 @@ The program is very intense and you need to invest all your time if you want it 
 
 **Building products**
 
-Another great thing about Lambda School are *Build Weeks* and *Lambda Labs*.
+Another great thing about Lambda School are _Build Weeks_ and _Lambda Labs_.
 
 The lecture and exercises are great but at the end of the day, you learn by doing. Lambda School understands this to its core and has put a huge emphasis on it. By the end of the 9-months, you will have built six 1-week projects and one 6-weeks project while working as a team.
 
@@ -169,8 +169,9 @@ The best and easiest way to figure it out is to ask yourself « Does the CEO und
 If the answer is a resounding yes, go for it 🚀
 
 As a quick reminder, here are definitions for Growth & Growth Engineering:
->  Finance owns the flow of cash in and out of a company. Growth owns the flow of customers in and out of a product.
->  Growth Engineering technically implement experiments on user acquisition, conversion, and product optimization. They are also building internal tooling to support the growth process.
+
+> Finance owns the flow of cash in and out of a company. Growth owns the flow of customers in and out of a product.
+> Growth Engineering technically implement experiments on user acquisition, conversion, and product optimization. They are also building internal tooling to support the growth process.
 
 ## **Shotgun**
 
