@@ -19,7 +19,7 @@ const IndexPage: React.FunctionComponent = () => (
         <p className="pt-2">France 🇫🇷</p>
         <p className="pt-2">Learning & Building</p>
         <p className="pt-2">
-          Founder at{" "}
+          Maker at{" "}
           <a
             className="hover:underline text-blue-600"
             href="https://croissant.io"
