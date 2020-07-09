@@ -28,13 +28,13 @@ const IndexPage: React.FunctionComponent = () => (
           </a>
         </p>
         <p className="pt-2">
-          Previously - Growth Engineer at
+          Previously - Growth Engineer at{" "}
           <a
             className="hover:underline text-pink-600"
             href="https://shotgun.live"
           >
             Shotgun
-          </a>{" "}
+          </a>{" "}.
           Student at{" "}
           <a
             className="hover:underline text-red-600"
@@ -42,7 +42,7 @@ const IndexPage: React.FunctionComponent = () => (
           >
             Lambda School
           </a>{" "}
-          + Growth Marketing Intern at{" "}
+          + Intern at{" "}
           <a
             className="hover:underline text-blue-600"
             href="https://www.algolia.com"
