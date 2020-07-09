@@ -42,7 +42,7 @@ const IndexPage: React.FunctionComponent = () => (
           >
             Lambda School
           </a>{" "}
-          + Intern at{" "}
+          + Growth Marketing Intern at{" "}
           <a
             className="hover:underline text-blue-600"
             href="https://www.algolia.com"
