@@ -34,7 +34,7 @@ const IndexPage: React.FunctionComponent = () => (
             href="https://shotgun.live"
           >
             Shotgun
-          </a>{" "}.
+          </a>.{" "}
           Student at{" "}
           <a
             className="hover:underline text-red-600"
