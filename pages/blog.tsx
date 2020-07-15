@@ -7,7 +7,7 @@ import marked from "marked";
 import path from "path";
 import Link from "next/link";
 
-// BLOG PAGE
+// BLOG
 const Blog: React.FunctionComponent = ({ posts }: any) => {
   return (
     <Layout title="Blog">
