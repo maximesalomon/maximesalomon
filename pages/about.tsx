@@ -7,6 +7,7 @@ const AboutPage: React.FunctionComponent = () => (
   <Layout title="About">
     <h1>About</h1>
     <p>Maxime Salomon</p>
+    <p>27</p>
     <p>
       <Link href="/">
         <a>Home</a>
