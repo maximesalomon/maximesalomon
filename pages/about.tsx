@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-// ABOUT PAGE
+// ABOUT
 const AboutPage: React.FunctionComponent = () => (
   <Layout title="About">
     <h1>About</h1>
