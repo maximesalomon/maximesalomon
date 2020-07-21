@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 // ABOUT
-const AboutPage: React.FunctionComponent = () => (
+const About: React.FunctionComponent = () => (
   <Layout title="About">
     <h1>About</h1>
     <p>Maxime Salomon</p>
@@ -18,4 +18,4 @@ const AboutPage: React.FunctionComponent = () => (
   </Layout>
 )
 
-export default AboutPage
+export default About
