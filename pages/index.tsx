@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
 // INDEX
-const IndexPage: React.FunctionComponent = () => (
+const Index: React.FunctionComponent = () => (
   <Layout title="Home">
     <div className="md:flex px-4 pt-4 md:pt-16">
       <div className="">
@@ -84,4 +84,4 @@ const IndexPage: React.FunctionComponent = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default Index;
