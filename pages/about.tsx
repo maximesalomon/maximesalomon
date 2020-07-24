@@ -7,9 +7,10 @@ const About: React.FunctionComponent = () => (
   <Layout title="About">
     <h1>About</h1>
     <p>Maxime Salomon</p>
-    <p>Founder, Croissant</p>
     <p>27</p>
     <p>Aix-en-Provence, France</p>
+    <h2>Professional</h2>
+    <p>Founder, Croissant</p>
     <p>
       <Link href="/">
         <a>Home</a>
