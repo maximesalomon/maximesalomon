@@ -9,7 +9,7 @@ const About: React.FunctionComponent = () => (
     <p>Maxime Salomon</p>
     <p>27</p>
     <p>Aix-en-Provence, France</p>
-    <p>Founder, Croissant 🥐</p>
+    <p>Founder, Croissant</p>
     <p>
       <Link href="/">
         <a>Home</a>
