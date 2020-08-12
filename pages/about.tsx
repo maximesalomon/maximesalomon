@@ -8,7 +8,7 @@ const About: React.FunctionComponent = () => (
     <h1>About</h1>
     <p>Maxime Salomon 😎</p>
     <p>27 🚣</p>
-    <p>Aix-en-Provence, France 🏖</p>
+    <p>Aix-en-Provence, France 🌻</p>
     <p>Founder, Croissant 🥐</p>
     <p>
       <Link href="/">
