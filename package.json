@@ -1,31 +1,46 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
+  "name": "maximesalomon-com",
+  "version": "2.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.1",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "type-check": "tsc"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "preview": "node scripts/serve-static.mjs out 4173",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0",
-    "@types/marked": "^0.7.4",
-    "autoprefixer": "^9.7.6",
-    "gray-matter": "^4.0.2",
-    "isomorphic-unfetch": "3.0.0",
-    "marked": "^1.1.0",
-    "next": "^9.3.6",
-    "postcss-import": "^12.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-markdown": "^4.3.1",
-    "tailwindcss": "^1.4.5"
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-markdown": "^10.1.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "3.7.3"
-  },
-  "license": "ISC"
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
 }

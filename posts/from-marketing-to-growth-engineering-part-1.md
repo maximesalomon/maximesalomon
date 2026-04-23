@@ -1,40 +1,9 @@
 ---
-title: "From Marketing to Growth Engineering - Part 1"
-date: "Feb 12, 2019"
-author: "Maxime Salomon"
-slug: "from-marketing-to-growth-engineering-part-1"
+title: 'From Marketing to Growth Engineering - Part 1'
+date: 'Feb 12, 2019'
+author: 'Maxime Salomon'
+slug: 'from-marketing-to-growth-engineering-part-1'
 ---
-
-<style type="text/css" rel="stylesheet">
-
-article h2 {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 0.6em;
-}
-
-article h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 0.4em;
-}
-
-article p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 1.6em;
-}
-
-article code {
-    background-color: rgba(242, 242, 242, 1);
-}
-
-article img {
-    margin: 0 auto;
-    width: 80%;
-}
-
-</style>
 
 `git add .`
 
